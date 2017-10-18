@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- List view rows stuff -->
+    <dimen name="lv_row_height">72dp</dimen>
+    <dimen name="lv_row_text_start_margin">72dp</dimen>
+    <dimen name="lv_row_primary_text_size">16sp</dimen>
+    <dimen name="lv_row_secondary_text_size">14sp</dimen>
+    <dimen name="lv_row_avatar_width">40dp</dimen>
+    <dimen name="lv_row_avatar_padding">16dp</dimen>
+
+    <!--Detail stuff-->
+    <dimen name="cv_corner_radius">2dp</dimen>
+    <dimen name="cv_padding">16dp</dimen>
+    <dimen name="range_bar_height">72dp</dimen>
+    <dimen name="hero_detail_app_bar_layout_height">300dp</dimen>
+    <dimen name="hero_detail_collapsing_toolbar_title_height">100dp</dimen>
+    <dimen name="hero_detail_avatar_width">120dp</dimen>
+    <dimen name="hero_detail_avatar_final_width">32dp</dimen>
+    <dimen name="hero_detail_spacing_normal">16dp</dimen>
+    <dimen name="hero_detail_avatar_target_width">40dp</dimen>
+    <dimen name="hero_detail_target_avatar_y">8dp</dimen>
+    <dimen name="hero_detail_target_title_y">8dp</dimen>
+    <dimen name="hero_detail_bar_title_text_size">19sp</dimen>
+    <dimen name="divider_bottom_margin">16dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+</resources>

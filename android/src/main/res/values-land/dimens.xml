@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hero_detail_avatar_target_width">33dp</dimen>
+    <dimen name="hero_detail_target_avatar_y">8dp</dimen>
+    <dimen name="hero_detail_target_title_y">4dp</dimen>
+    <dimen name="hero_detail_bar_title_text_size">16sp</dimen>
+</resources>

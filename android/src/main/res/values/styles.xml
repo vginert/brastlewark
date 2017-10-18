@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="AppTheme.RangeBar">
+        <item name="barColor">#77ffffff</item>
+        <item name="connectingLineColor">#ffffff</item>
+        <item name="thumbLeftImageNormal">@drawable/ic_range_left</item>
+        <item name="thumbLeftImagePressed">@drawable/ic_range_left_pressed</item>
+        <item name="thumbRightImageNormal">@drawable/ic_range_right</item>
+        <item name="thumbRightImagePressed">@drawable/ic_range_right_pressed</item>
+        <item name="thumbEqualImageNormal">@drawable/ic_range_equal</item>
+        <item name="thumbEqualImagePressed">@drawable/ic_range_equal_pressed</item>
+        <item name="tickHeight">0dp</item>
+    </style>
+
+    <style name="AppTheme.FilterTextValue">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.ChipView">
+        <item name="backgroundColor">@color/white_transparency</item>
+        <item name="deleteIconColor">@color/colorPrimary</item>
+        <item name="labelColor">@color/black_transparency</item>
+        <item name="deletable">true</item>
+    </style>
+
+    <style name="AppTheme.SearchEditText">
+        <item name="android:background">@drawable/rounded_edittext_background</item>
+        <item name="android:layout_marginBottom">@dimen/divider_bottom_margin</item>
+        <item name="android:drawableStart">@drawable/ic_search_edittext_icon</item>
+        <item name="android:drawableEnd">@drawable/ic_search_edittext_clear</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColorHint">@color/seach_edittext_hint_color</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:imeOptions">actionSearch</item>
+    </style>
+
+</resources>

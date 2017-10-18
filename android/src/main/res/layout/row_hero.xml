@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lv_row_height"
+                android:background="?android:attr/selectableItemBackground"
+                android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/lv_row_avatar_width"
+        android:layout_height="@dimen/lv_row_avatar_width"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/lv_row_avatar_padding"
+        android:src="@drawable/ic_profile_list"
+        android:contentDescription="@string/string_content_description"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/lv_row_text_start_margin"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/lv_row_primary_text_size"/>
+
+        <TextView
+            android:id="@+id/tv_hair_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/lv_row_secondary_text_size"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
